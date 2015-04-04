@@ -38,7 +38,7 @@ seq(webSettings: _*)
 
 // lift, jetty
 libraryDependencies ++= {
-  val liftVersion = "2.6-RC2"
+  val liftVersion = "2.6"
   Seq(
     "net.liftweb" %% "lift-webkit" % liftVersion % "compile",
     "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container,compile" artifacts Artifact("javax.servlet", "jar", "jar"),
